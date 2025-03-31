@@ -1,6 +1,6 @@
 # 🎓 Challenge Backend - Zendesk + ABM de Carreras
 
-Este proyecto fue desarrollado como parte de un challenge técnico para la posición de trainee backend. Consiste en dos partes principales:
+Este proyecto fue desarrollado como parte de un challenge técnico Consiste en dos partes principales:
 
 - ✅ Un CRUD completo para gestionar carreras de un instituto.
 - ✅ La integración con la API de Zendesk para obtener y agregar comentarios a un ticket.
