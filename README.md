@@ -1,9 +1,6 @@
-# 🎓 Challenge Backend - Zendesk + ABM de Carreras
+# 🎓 Challenge Backend - ABM de Carreras
 
-Este proyecto fue desarrollado como parte de un challenge técnico Consiste en dos partes principales:
-
-- ✅ Un CRUD completo para gestionar carreras de un instituto.
-- ✅ La integración con la API de Zendesk para obtener y agregar comentarios a un ticket.
+Este proyecto fue desarrollado como parte de un challenge técnico para la posición de trainee backend. Consiste en un sistema para gestionar carreras de un instituto mediante una API REST.
 
 ---
 
@@ -18,11 +15,11 @@ Este proyecto fue desarrollado como parte de un challenge técnico Consiste en d
 
 ---
 
-## 🧠 Funcionalidades
+## 🧠 Funcionalidades implementadas
 
-### 🔹 ABM de Carreras
+### ✅ ABM de Carreras
 
-El sistema permite:
+Permite:
 - Crear una nueva carrera.
 - Consultar todas las carreras existentes.
 - Actualizar una carrera por su ID.
@@ -39,40 +36,8 @@ El sistema permite:
 
 ---
 
-### 🔹 Integración con API de Zendesk
+## 🧪 Base de datos en memoria (H2)
 
-La aplicación se conecta con la API de Zendesk para:
+Podés acceder a la base de datos desde:
+http://localhost:8080/h2-console
 
-- Obtener la lista de comentarios de un ticket (`GET /tickets/{id}/comments`)
-- Agregar un nuevo comentario a un ticket (`POST /tickets/{id}/comments`)
-
----
-
-## 🛠️ Cómo ejecutar el proyecto
-
-1. Clonar el repositorio:
-```bash
-
----
-
-2. Abrir el proyecto en tu IDE
-Ejecuta la clase :
-
-ZendeskbackendApplication.java
-
-Accede a la API en : http://localhost:8080
-
----
-
-com.challenge.zendeskbackend
-├── controller
-│   ├── CarreraController.java
-│   └── TicketController.java
-├── model
-│   └── Carrera.java
-├── repository
-│   └── CarreraRepository.java
-├── service
-│   ├── CarreraService.java
-│   └── ZendeskService.java
-└── ZendeskbackendApplication.java
